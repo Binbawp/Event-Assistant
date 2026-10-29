@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Event Assistant</string>
+
+    <!-- Home screen -->
+    <string name="search_hint">Search events…</string>
+    <string name="advanced_search">Advanced search</string>
+    <string name="add_event">Add event</string>
+    <string name="upload_to_cloud">Upload to cloud</string>
+    <string name="add_sample_data">Add sample data (testing)</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="empty_events">No events yet.\nTap + to add one.</string>
+    <string name="empty_search">No events match your search.</string>
+
+    <!-- Delete event dialog -->
+    <string name="delete_title">Delete event?</string>
+    <string name="delete_message">Delete \"%1$s\"? Its %2$d session(s) will be deleted too. This cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <plurals name="session_count">
+        <item quantity="one">%d session</item>
+        <item quantity="other">%d sessions</item>
+    </plurals>
+
+    <!-- Shared -->
+    <string name="save">Save</string>
+    <string name="save_failed">Could not save. Please try again.</string>
+    <string name="date_placeholder">DD/MM/YYYY</string>
+    <string name="time_placeholder">HH:MM</string>
+    <string name="pick_date">Pick a date</string>
+    <string name="pick_time">Pick a time</string>
+
+    <!-- Event form -->
+    <string name="add_event_title">Add event</string>
+    <string name="edit_event_title">Edit event</string>
+    <string name="hint_event_name">Event name *</string>
+    <string name="hint_event_date">Date *</string>
+    <string name="hint_location">Location *</string>
+    <string name="hint_organiser">Organiser *</string>
+    <string name="hint_description">Description (optional)</string>
+    <string name="hint_email">Contact email (optional)</string>
+    <string name="hint_phone">Contact phone (optional)</string>
+    <string name="review">Review</string>
+
+    <string name="error_name_required">Please enter the event name</string>
+    <string name="error_date_required">Please enter the event date</string>
+    <string name="error_date_format">Please enter a valid date as DD/MM/YYYY</string>
+    <string name="error_location_required">Please enter the location</string>
+    <string name="error_organiser_required">Please enter the organiser</string>
+    <string name="error_email_format">Please enter a valid email address</string>
+    <string name="error_phone_format">Please enter a valid phone number</string>
+    <string name="error_duplicate_event">An event with this name and date already exists</string>
+
+    <string name="confirm_title">Confirm event details</string>
+    <string name="confirm">Confirm</string>
+    <string name="edit">Edit</string>
+    <string name="event_saved">Event saved</string>
+    <string name="event_updated">Event updated</string>
+
+    <string name="label_name">Event name</string>
+    <string name="label_date">Date</string>
+    <string name="label_location">Location</string>
+    <string name="label_organiser">Organiser</string>
+    <string name="label_description">Description</string>
+    <string name="label_email">Contact email</string>
+    <string name="label_phone">Contact phone</string>
+
+    <!-- Event details -->
+    <string name="event_details_title">Event details</string>
+    <string name="sessions_title">Sessions (%d)</string>
+    <string name="search_sessions_hint">Search sessions…</string>
+    <string name="add_session">Add session</string>
+    <string name="no_sessions">No sessions yet.\nTap + to add one.</string>
+    <string name="no_sessions_match">No sessions match your search.</string>
+    <string name="speaker_line">Speaker: %s</string>
+    <string name="room_line">Room: %s</string>
+    <string name="delete_session_title">Delete session?</string>
+    <string name="delete_session_message">Delete \"%s\"? This cannot be undone.</string>
+
+    <!-- Session form -->
+    <string name="add_session_title">Add session</string>
+    <string name="edit_session_title">Edit session</string>
+    <string name="hint_session_id">Session ID</string>
+    <string name="session_id_auto">Generated automatically</string>
+    <string name="session_id_value">#%d</string>
+    <string name="hint_session_name">Session name *</string>
+    <string name="hint_session_time">Time *</string>
+    <string name="hint_session_type">Type</string>
+    <string name="hint_speaker">Speaker (optional)</string>
+    <string name="hint_room">Room (optional)</string>
+    <string name="error_session_name_required">Please enter the session name</string>
+    <string name="error_time_required">Please enter the session time</string>
+    <string name="error_time_format">Please enter a valid time as HH:MM (24-hour)</string>
+    <string name="session_saved">Session saved</string>
+    <string name="session_updated">Session updated</string>
+
+    <string-array name="session_types">
+        <item>Workshop</item>
+        <item>Presentation</item>
+        <item>Panel Discussion</item>
+        <item>Networking</item>
+        <item>Keynote</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- Advanced search -->
+    <string name="advanced_search_title">Advanced search</string>
+    <string name="hint_search_date">Date (optional)</string>
+    <string name="hint_search_organiser">Organiser (optional)</string>
+    <string name="search">Search</string>
+    <string name="enter_criteria">Enter a date and/or an organiser, then tap Search.</string>
+    <string name="no_results">No events found.</string>
+    <plurals name="results_count">
+        <item quantity="one">%d event found</item>
+        <item quantity="other">%d events found</item>
+    </plurals>
+</resources>
